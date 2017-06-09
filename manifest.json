@@ -1,7 +1,7 @@
 {
   "name": "No-commute",
   "version": "0.1",
-  "description": "Removes commutes from strava",
+  "description": "Removes commutes from strava. Please include this feature in strava",
   "icons": {
     "128": "icon.png"
   },
