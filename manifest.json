@@ -17,7 +17,7 @@
       ],
       "js": [
         "libs/jquery-3.2.1.min.js",
-        "nocommute.js"
+        "no-commute.js"
       ]
     }
   ],
