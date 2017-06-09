@@ -1,0 +1,28 @@
+{
+  "name": "No-commute",
+  "version": "0.1",
+  "description": "Removes commutes from strava",
+  "icons": {
+    "128": "icon.png"
+  },
+  "background": {
+    "scripts": [
+      "background.js"
+    ]
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.strava.com/*"
+      ],
+      "js": [
+        "libs/jquery-3.2.1.min.js",
+        "nocommute.js"
+      ]
+    }
+  ],
+  "permissions": [
+    "tabs"
+  ],
+  "manifest_version": 2
+}
